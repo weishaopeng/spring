@@ -21,14 +21,4 @@ public class WebConfig {
         viewResolver.setSuffix(".jsp");
         return viewResolver;
     }
-
-    //public HandlerAdapter initRequestMappingHandlerAdapter() {
-    //    RequestMappingHandlerAdapter handlerAdapter = new RequestMappingHandlerAdapter();
-    //    MappingJackson2HttpMessageConverter jsonConverter = new MappingJackson2HttpMessageConverter();
-    //    ArrayList<MediaType> mediaTypes = new ArrayList<>();
-    //    mediaTypes.add(MediaType.APPLICATION_JSON_UTF8);
-    //    jsonConverter.setSupportedMediaTypes(mediaTypes);
-    //    handlerAdapter.getMessageConverters().add(jsonConverter);
-    //    return handlerAdapter;
-    //}
 }
