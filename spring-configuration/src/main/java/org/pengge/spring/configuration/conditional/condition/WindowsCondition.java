@@ -1,4 +1,4 @@
-package org.pengge.spring.configuration.conditional;
+package org.pengge.spring.configuration.conditional.condition;
 
 import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;
@@ -13,5 +13,6 @@ public class WindowsCondition implements Condition {
     @Override
     public boolean matches(ConditionContext conditionContext, AnnotatedTypeMetadata annotatedTypeMetadata) {
         return conditionContext.getEnvironment().getProperty("os.name").contains("Windows");
+        //return conditionContext.getEnvironment().getProperty("os.name").contains("Mac");
     }
 }

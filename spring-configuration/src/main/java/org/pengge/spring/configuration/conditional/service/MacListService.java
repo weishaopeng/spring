@@ -1,4 +1,4 @@
-package org.pengge.spring.configuration.conditional;
+package org.pengge.spring.configuration.conditional.service;
 
 /**
  * @author shaopeng.wei

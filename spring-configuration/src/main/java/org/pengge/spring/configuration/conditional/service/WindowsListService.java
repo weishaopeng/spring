@@ -1,4 +1,6 @@
-package org.pengge.spring.configuration.conditional;
+package org.pengge.spring.configuration.conditional.service;
+
+import org.pengge.spring.configuration.conditional.service.ListService;
 
 /**
  * @author shaopeng.wei
