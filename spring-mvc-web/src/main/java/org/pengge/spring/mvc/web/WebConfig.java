@@ -12,6 +12,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  * Purpose
  */
 @Configuration
+//自动扫描相关包，发现Bean
 @ComponentScan("org.pengge.spring.mvc.web")
 @EnableWebMvc
 public class WebConfig {

@@ -5,8 +5,9 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 /**
  * @author shaopeng.wei
  * @since 2019-07-28 18:41
- * Purpose
+ * Purpose 做一些dispatcherServlet相关的配置
  */
+
 public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
